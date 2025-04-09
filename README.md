@@ -106,19 +106,10 @@ code ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
 MCP Inspectorを使用して検証することができます。
 
-1. MCP Inspector CLI をインストール
+1. ビルドを実行してから、インスペクタを実行します
 ```bash
-npm install -g @modelcontextprotocol/mcp-inspector
-```
-
-2. マナリンクMCPサーバーを起動
-```bash
-npm start
-```
-
-3. 別のターミナルでインスペクタを実行して接続
-```bash
-mcp-inspector stdio "npm start"
+npm run build
+npx @modelcontextprotocol/inspector node dist/index.js
 ```
 
 ## ライセンス
