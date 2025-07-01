@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/texmeijin-manalinkmcp-badge.png)](https://mseep.ai/app/texmeijin-manalinkmcp)
+
 # マナリンクMCPサーバー
 
 マナリンクのModel Context Protocol (MCP) サーバー実装です。AIアシスタントが先生検索などの機能を利用できるようにします。
